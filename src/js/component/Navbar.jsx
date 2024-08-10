@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./styles/Navbar.module.css"
 function Navbar(){
     return(
         <nav className="navbar navbar-expand-lg w-100 m-0 navbar-dark sticky-top bg-dark">
@@ -20,6 +19,4 @@ function Navbar(){
         </nav>
     );
 };
-
-
 export default Navbar
